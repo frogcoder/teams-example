@@ -1,0 +1,9 @@
+[project]
+name = "teams-message-example"
+dynamic = ["version"]
+dependencies = [
+  "confluent-kafka",
+  "fastapi[standard]",
+  "requests",
+  "python-dotenv",
+]
